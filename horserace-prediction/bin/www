@@ -14,7 +14,7 @@ const config = require('../config/config')
  */
 
 var port = normalizePort(config.PORT || '3000');
-console.log('aaa')
+console.log(port)
 app.set('port', port);
 
 /**
