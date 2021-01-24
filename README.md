@@ -10,4 +10,7 @@ nvmがデフォルトで入ってた(cloud9 ubuntu)
 
 とりあえず新しく（デフォルトは10.xx.xx）
 nvm install 14.15.4
+nvm alias default 14.15.4
 
+DB (passwordはdocker)
+mysql -u docker -p -P 13306 -h 127.0.0.1

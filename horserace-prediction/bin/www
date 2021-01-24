@@ -7,14 +7,13 @@
 var app = require('../app');
 var debug = require('debug')('horserace-prediction:server');
 var http = require('http');
-const config = require('../config/config')
+const config2 = require('../config/config');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(config.PORT || '3000');
-console.log(port)
+var port = normalizePort(config2.port || '3000');
 app.set('port', port);
 
 /**
